@@ -80,4 +80,12 @@
 
   <!-- ProtonAosp -->
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" groups="pdk" remote="github" revision="main" />
+  
+  <!-- Trees -->
+  <project path="device/xiaomi/juice" name="darknius22/device_xiaomi_juice" remote="github" revision="awaken" clone-depth="1" />
+  <project path="vendor/xiaomi/juice" name="darknius22/vendor_xiaomi_juice-1" remote="github" revision="snow" clone-depth="1" />
+  <project path="kernel/xiaomi/juice" name="darknius20/guuji_kernel_juice" remote="github" revision="main.stbl" clone-depth="1" />
+        
+  <!-- Clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
 </manifest>
